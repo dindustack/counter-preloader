@@ -73,6 +73,6 @@ body {
 .content h1 {
   font-size: 100px;
   font-family: "Monument Extended", sans-serif;
-  text-transform: "uppercase";
+  text-transform: uppercase;
   font-weight: lighter;
 }
