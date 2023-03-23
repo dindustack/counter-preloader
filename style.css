@@ -1,3 +1,6 @@
+@import url("https://fonts.cdnfonts.com/css/monument-extended");
+@import url("https://fonts.cdnfonts.com/css/kenoky");
+
 * {
   margin: 0;
   padding: 0;
@@ -5,7 +8,7 @@
 
 body {
   overflow: hidden;
-  font-family: "Kenoky";
+  font-family: "KENOKY", sans-serif;
 }
 
 .loader {
@@ -29,4 +32,47 @@ body {
   font-weight: lighter;
   font-style: italic;
   mix-blend-mode: difference;
+}
+
+#bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+}
+
+#barconfirm {
+  width: 0%;
+  height: 100vh;
+  background: #1b1b1b;
+}
+
+.main-page {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+}
+
+.content {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background: #1b1b1b;
+  flex-direction: column;
+  color: white;
+  overflow: hidden;
+  z-index: 50;
+}
+
+.content h1 {
+  font-size: 100px;
+  font-family: "Monument Extended", sans-serif;
+  text-transform: "uppercase";
+  font-weight: lighter;
 }
